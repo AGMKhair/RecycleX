@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/offers"
+                android:title="Offers"
+                android:icon="@drawable/offer"/>
+
+            <item
+                android:id="@+id/babycare"
+                android:title="Baby Care"
+                android:icon="@drawable/babycare"/>
+
+            <item
+                android:id="@+id/petcare"
+                android:title="PetCare"
+                android:icon="@drawable/petcare"/>
+
+            <item
+                android:id="@+id/popular"
+                android:title="Popular"
+                android:icon="@drawable/populer"/>
+
+            <item
+                android:id="@+id/wintercollection"
+                android:title="Winter Collection"
+                android:icon="@drawable/ww"
+                />
+
+            <item
+                android:id="@+id/food"
+                android:title="Food"
+                android:icon="@drawable/ff"/>
+
+            <item
+                android:id="@+id/homecleaning"
+                android:title="Home and Cleaning"
+                android:icon="@drawable/homeclening"/>
+
+    </group>
+
+
+    <item android:title="Extera :">
+
+        <menu>
+
+            <item
+                android:id="@+id/coupons"
+                android:title="Coupons"
+                android:icon="@drawable/cupone"/>
+
+            <item
+                android:id="@+id/discount"
+                android:title="Discount"
+                android:icon="@drawable/discount"/>
+
+            <item
+                android:id="@+id/freeshoping"
+                android:title="Free Shoping"
+                android:icon="@drawable/free"/>
+
+        </menu>
+
+    </item>
+
+
+
+    <item android:title="Contract :">
+
+        <menu>
+            <item
+                android:id="@+id/callus"
+                android:title="Call Us"
+                android:icon="@drawable/call_icon"/>
+
+            <item
+                android:id="@+id/livechat"
+                android:title="Live Chat"
+                android:icon="@drawable/live"/>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Change :">
+
+        <menu>
+
+            <item
+                android:id="@+id/point"
+                android:title="Point Calculator"
+                android:icon="@drawable/point"/>
+
+        </menu>
+
+    </item>
+
+
+</menu>

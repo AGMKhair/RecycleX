@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ProfileActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarlogOut"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:src="@drawable/user_profile_icon"
+            android:padding="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:visibility="gone"
+                android:paddingLeft="10dp"
+                android:text="01990014631"
+                android:id="@+id/user_nameEVId"
+                android:layout_weight=".3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:text="01990014631"
+            android:id="@+id/user_nameTVId"
+            android:layout_weight=".3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/change_user_name_edittextId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight=".7"
+                android:padding="2dp"
+                android:text="CHANGE"
+                android:textAlignment="center"
+                android:textColor="@color/colorGreen" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/update_designLOId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="right"
+        >
+
+
+            <TextView
+                android:id="@+id/user_name_updateTVId"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="Update"
+                android:layout_marginRight="5dp"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_light" />
+
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+                android:id="@+id/user_cancelTVId"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="Cancel"
+                android:textAlignment="center"
+                android:textColor="@android:color/holo_red_light" />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="UPDATE INFO"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        />
+
+
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:padding="10dp"
+            android:src="@drawable/user_profile_call_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+
+
+
+            <TextView
+                android:text="01990014631"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:id="@+id/user_numberTVId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:padding="10dp"
+            android:src="@drawable/user_profile_sms_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+
+
+
+            <TextView
+                android:text="01990014631@xxxxxx.com"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:id="@+id/user_mailTVId"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:padding="10dp"
+            android:src="@drawable/user_profile_home_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:visibility="gone"
+                android:paddingLeft="10dp"
+                android:text="01990014631"
+                android:id="@+id/user_addressEVId"
+                android:layout_weight=".3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="address"
+                android:id="@+id/user_addressTVId"
+                android:layout_weight=".3"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/change_address_edittextId"
+                android:padding="2dp"
+                android:textColor="@color/colorGreen"
+                android:text="CHANGE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_weight=".7"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/update_design_addressLOId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:gravity="right"
+        >
+
+
+        <TextView
+            android:id="@+id/user_address_updateTVId"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="Update"
+            android:layout_marginRight="5dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_light" />
+
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/user_address_cancelTVId"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:text="Cancel"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_light" />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="HISTORY"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        />
+
+
+    <LinearLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:padding="10dp"
+            android:src="@drawable/user_profile_history_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+
+        <LinearLayout
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <TextView
+                android:text="Order History"
+                android:id="@+id/user_historyTVId"
+                android:layout_weight=".3"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/browse_id"
+                android:textAlignment="center"
+                android:layout_weight=".7"
+                android:padding="2dp"
+                android:textColor="@color/colorGreen"
+                android:text="BROWSE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@color/common_google_signin_btn_text_dark_disabled"
+        />
+
+    <TextView
+        android:id="@+id/logoutTVId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/colorGreen"
+        android:textAlignment="center"
+        android:text="Log Out"
+        android:background="@color/white"
+        />
+
+</LinearLayout>

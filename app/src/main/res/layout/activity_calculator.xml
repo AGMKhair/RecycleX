@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Calculator"
+    android:orientation="vertical">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/pointshow"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorGreen"
+        android:textStyle="bold"
+android:textAlignment="center"
+        android:layout_height="80dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="16dp"
+        android:text="Product recycling point you will get"
+        android:textSize="16sp"
+        android:gravity="center"/>
+
+
+    <Spinner
+        android:id="@+id/spCountry"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/spinner"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/kg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Kg"
+        android:paddingLeft="5dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="16dp"
+        android:inputType="numberDecimal"/>
+
+
+    <Button
+        android:id="@+id/addpoint"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#3F51B5"
+        android:text="Total Point"
+        android:textColor="#ffffff"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"
+        android:textSize="16sp"/>
+
+</LinearLayout>
